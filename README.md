@@ -2,14 +2,18 @@
 
 This is a container for [sqlmap](https://github.com/sqlmapproject/sqlmap), a open-source tool for automated SQL injection and database takeover testing.
 
-**Current version: 1.9**
+**Current version: 1.10**
 
 ## Pull from Docker Hub
 
 Grab the image for the current sqlmap version:
 
 ```bash
-docker pull panosmavrikos/sqlmap:1.9
+docker pull panosmavrikos/sqlmap:1.10
+```
+OR
+```bash
+docker pull panosmavrikos/sqlmap:latest
 ```
 
 ## Usage
@@ -55,4 +59,5 @@ docker run --rm -it -v /tmp/sqlmap:/root/.sqlmap/ panosmavrikos/sqlmap:1.9 --url
 ``` -->
 
 For more advanced options (e.g., authentication, proxies, or custom payloads), check the [official sqlmap documentation](https://github.com/sqlmapproject/sqlmap/wiki).
+
 
